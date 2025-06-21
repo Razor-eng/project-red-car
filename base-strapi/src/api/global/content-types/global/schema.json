@@ -1,0 +1,73 @@
+{
+  "kind": "singleType",
+  "collectionName": "globals",
+  "info": {
+    "singularName": "global",
+    "pluralName": "globals",
+    "displayName": "Global",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "files",
+        "images"
+      ]
+    },
+    "navLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "common.nav-link"
+    },
+    "footerLogo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files"
+      ]
+    },
+    "footerLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "common.nav-link"
+    },
+    "email": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "companyName": {
+      "type": "string"
+    },
+    "address": {
+      "type": "string"
+    },
+    "vatNumber": {
+      "type": "string"
+    },
+    "socialCapital": {
+      "type": "string"
+    },
+    "theme": {
+      "type": "enumeration",
+      "enum": [
+        "blu",
+        "rossa",
+        "verde",
+        "viola",
+        "arancione",
+        "dark"
+      ],
+      "default": "blu"
+    }
+  }
+}

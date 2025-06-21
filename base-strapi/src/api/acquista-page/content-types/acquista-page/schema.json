@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "acquista_pages",
+  "info": {
+    "singularName": "acquista-page",
+    "pluralName": "acquista-pages",
+    "displayName": "Acquista Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "result": {
+      "displayName": "CarDetail",
+      "type": "component",
+      "repeatable": true,
+      "component": "acquista.car-detail"
+    }
+  }
+}

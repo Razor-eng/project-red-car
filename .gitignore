@@ -1,0 +1,80 @@
+# Tenant directories
+/tenants
+
+# Environment files
+.env
+.env.*
+!.env.template.*
+!.env.example
+
+# OS files
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+.Spotlight-V100
+.Trashes
+._*
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
+*~
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+.yarn/*
+!.yarn/cache
+!.yarn/unplugged
+!.yarn/patches
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+.pnp.*
+yarn-error.log
+package-lock.json
+
+# Build and cache
+.next/
+out/
+build/
+dist/
+.cache/
+.vercel
+.strapi
+.strapi-updater.json
+.strapi-cloud.json
+.tmp/
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+*.sqlite3
+logs/
+
+# IDE and editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*.swn
+*.swm
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+*.sublime-project
+
+# TypeScript
+*.tsbuildinfo

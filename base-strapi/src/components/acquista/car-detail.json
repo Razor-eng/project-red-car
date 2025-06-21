@@ -1,0 +1,43 @@
+{
+  "collectionName": "components_acquista_car_details",
+  "info": {
+    "displayName": "CarDetail",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "price": {
+      "type": "string"
+    },
+    "category": {
+      "type": "string"
+    },
+    "imageUrl": {
+      "allowedTypes": [
+        "images",
+        "files"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "transmission": {
+      "type": "string"
+    },
+    "fuelType": {
+      "type": "string"
+    },
+    "year": {
+      "type": "string"
+    },
+    "mileage": {
+      "type": "decimal",
+      "min": 0
+    }
+  }
+}

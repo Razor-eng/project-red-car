@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_home_brand_sections",
+  "info": {
+    "displayName": "BrandSection",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "brands": {
+      "displayName": "Brand",
+      "type": "component",
+      "repeatable": true,
+      "component": "home.brand"
+    }
+  }
+}

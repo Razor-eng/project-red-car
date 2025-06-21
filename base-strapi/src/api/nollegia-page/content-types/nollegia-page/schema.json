@@ -1,0 +1,19 @@
+{
+  "kind": "singleType",
+  "collectionName": "nollegia_pages",
+  "info": {
+    "singularName": "nollegia-page",
+    "pluralName": "nollegia-pages",
+    "displayName": "Nollegia Page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "result": {
+      "type": "component",
+      "repeatable": true,
+      "component": "acquista.car-detail"
+    }
+  }
+}

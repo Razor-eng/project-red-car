@@ -1,0 +1,39 @@
+{
+  "kind": "singleType",
+  "collectionName": "chi_siamo_pages",
+  "info": {
+    "singularName": "chi-siamo-page",
+    "pluralName": "chi-siamo-pages",
+    "displayName": "Chi siamo Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "imageUrl": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files"
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "carSection": {
+      "displayName": "CarSection",
+      "type": "component",
+      "repeatable": true,
+      "component": "chi-siamo.car-section"
+    },
+    "quote": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_home_low_consumption_cars_sections",
+  "info": {
+    "displayName": "LowConsumptionCarSection",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "cars": {
+      "type": "component",
+      "repeatable": true,
+      "component": "home.offer"
+    }
+  }
+}

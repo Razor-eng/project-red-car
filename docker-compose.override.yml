@@ -1,0 +1,8 @@
+services:
+  traefik:
+    command:
+      - "--log.level=DEBUG"
+    ports:
+      - "81:80"
+      - "8443:443"
+      - "8181:8080"

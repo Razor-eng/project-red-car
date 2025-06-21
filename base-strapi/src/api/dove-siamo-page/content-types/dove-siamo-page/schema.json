@@ -1,0 +1,39 @@
+{
+  "kind": "singleType",
+  "collectionName": "dove_siamo_pages",
+  "info": {
+    "singularName": "dove-siamo-page",
+    "pluralName": "dove-siamo-pages",
+    "displayName": "Dove siamo Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "imageUrl": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files"
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "address": {
+      "type": "string"
+    },
+    "latitude": {
+      "type": "decimal"
+    },
+    "longitude": {
+      "type": "decimal"
+    }
+  }
+}

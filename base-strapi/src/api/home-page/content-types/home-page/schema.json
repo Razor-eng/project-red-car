@@ -1,0 +1,46 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_pages",
+  "info": {
+    "singularName": "home-page",
+    "pluralName": "home-pages",
+    "displayName": "Home Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "heroSection": {
+      "displayName": "HeroSection",
+      "type": "component",
+      "repeatable": false,
+      "component": "home.hero-section"
+    },
+    "offerSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home.offer-section"
+    },
+    "popularCarsSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home.popular-car-section"
+    },
+    "lowConsumptionCarsSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home.low-consumption-cars-section"
+    },
+    "reviewSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home.review-section"
+    },
+    "brandSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home.brand-section"
+    }
+  }
+}

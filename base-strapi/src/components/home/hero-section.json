@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_home_hero_sections",
+  "info": {
+    "displayName": "HeroSection",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "searchTitle": {
+      "type": "string"
+    },
+    "searchPlaceholder": {
+      "type": "string"
+    },
+    "ctaButton": {
+      "type": "string"
+    },
+    "offers": {
+      "displayName": "Offer",
+      "type": "component",
+      "repeatable": true,
+      "component": "home.offer"
+    },
+    "button": {
+      "type": "string"
+    }
+  }
+}

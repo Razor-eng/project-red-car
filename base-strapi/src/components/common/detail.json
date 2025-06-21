@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_common_details",
+  "info": {
+    "displayName": "Detail",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "content": {
+      "displayName": "Content",
+      "type": "component",
+      "repeatable": true,
+      "component": "common.content"
+    }
+  }
+}

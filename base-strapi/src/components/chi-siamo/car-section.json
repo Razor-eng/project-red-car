@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_chi_siamo_car_sections",
+  "info": {
+    "displayName": "CarSection",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "imageUrl": {
+      "allowedTypes": [
+        "images",
+        "files"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
