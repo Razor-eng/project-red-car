@@ -1,5 +1,4 @@
 import React from "react";
-import Accessori from "@/components/car-dettagli/Accessori";
 import CarDetagli from "@/components/detagli/CarDetagli";
 import ReviewSection from "@/components/Homepage/ReviewSection/ReviewSection";
 import VeicoloDettagliScheda from "@/components/car-dettagli/OppureFilter";
@@ -20,10 +19,7 @@ async function fetchVehicleDetails(
 
   const [vehicleResponse, reviewSection] = await Promise.all([
     fetch(vehicleUrl, { next: { revalidate: 60 } }),
-    getReviewSectionData().catch((e) => {
-      console.error("Failed to fetch review section", e);
-      return null;
-    }),
+    getReviewSectionData(),
   ]);
 
   if (!vehicleResponse.ok) {
@@ -47,7 +43,6 @@ export default async function CarDettagliPage({ params }: Props) {
     <div className="py-[19px] md:py-[98px] w-full flex flex-col items-center justify-center px-6">
       <CarDetagli isCarDetails data={veicoloData} />
       <VeicoloDettagliScheda data={veicoloData} />
-      <Accessori accessori={veicoloData.accessori} />
       {reviewSection && <ReviewSection {...reviewSection} />}
     </div>
   );

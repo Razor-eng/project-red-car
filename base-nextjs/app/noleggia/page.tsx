@@ -96,8 +96,10 @@ export default async function NoleggiaPage({
         <div className="container-xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="w-full flex flex-col lg:flex-row lg:space-x-6">
             <div className="lg:w-64 xl:w-80">
-              <div className="hidden lg:block sticky top-[100px] min-h-max mb-10	">
-                <FilterMenu pageFrom={"noleggia"} {...filterMenuProps} />
+              <div className="hidden lg:block sticky top-[100px] mb-10">
+                <div className="h-[calc(100vh-100px)] overflow-y-auto">
+                  <FilterMenu pageFrom={"noleggia"} {...filterMenuProps} />
+                </div>
               </div>
             </div>
 
